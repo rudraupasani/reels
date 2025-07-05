@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Reels",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/reels.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/reels.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/reels.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.upasanirudra.app"
+    },
+    "web": {
+      "favicon": "./assets/reels.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ccb3e5f2-27e6-4c24-bd6e-b900548ba3a3"
+      }
+    },
+    "plugins": [
+      "expo-video"
+    ]
+  }
+}
